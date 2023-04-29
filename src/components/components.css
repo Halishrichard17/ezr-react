@@ -13,44 +13,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body, #hoeapp-wrapper {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    -webkit-text-size-adjust: 100%;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    color: #777;
-    background-color: #fbfcfd;
-  }
-  
-  
+.gg{
+  width: 100%;
+}
   a, button {
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -1074,9 +1039,7 @@ body, #hoeapp-wrapper {
   /*
   Panel style
   */
-  table {
-      background-color: #fff !important;
-  }
+
   .panel {
       background-color: #efefef !important;
       border-radius: 5px !important;
@@ -1230,10 +1193,7 @@ body, #hoeapp-wrapper {
     border: 0px;
   }
   
-  /*
-  Pagination buttons
-  */
-  /*data tables pagination*/
+
   .paginate_button {
     display: inline-block;
     line-height: 24px;
@@ -1265,21 +1225,7 @@ body, #hoeapp-wrapper {
       background-color: #36c6d3 !important;
       border-color: #36c6d3 !important;
   }
-  th, th > a, .table-th-theme, .fc-col-header-cell-cushion {
-      background-color: #36c6d3;
-      color: white;
-  }
-  .table > thead > tr > th,
-  .table > tbody > tr > th,
-  .table > tfoot > tr > th,
-  .table > thead > tr > td,
-  .table > tbody > tr > td,
-  .table > tfoot > tr > td {
-      padding: 5px;
-      line-height: 1.42857143;
-      vertical-align: top;
-      border-top: 1px solid #ddd;
-  }
+ 
   
   .profile-info {
       text-align: center;

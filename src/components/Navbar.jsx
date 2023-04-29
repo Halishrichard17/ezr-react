@@ -5,13 +5,18 @@ function Navbar(){
         <>
     <div>
     <div className=" header ">
-        <div className=" d-flex justify-content-between align-items-center pt-10">
+        <div className=" d-flex justify-content-between align-items-center ">
             <div className="" >
                  <h2>EZRecorder</h2>
             </div>
             <div className=" ">
-    
-                <input type="text" />
+            <div cla ss="input-group mt-3">
+            <input type="text"  class="form-control" aria-describedby="basic-addon2" />
+     
+          <div class="input-group-append">
+          <i class="bi bi-search"></i>
+          </div>
+        </div>
             </div>
             <div className=" ">
                 <button>
